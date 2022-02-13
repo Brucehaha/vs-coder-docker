@@ -20,7 +20,7 @@
 #   https://github.com/sr229/code-server-openshift
 #   https://github.com/cdr/code-server/releases
 #   https://caveofcode.com/2017/06/how-to-setup-a-vpn-connection-from-inside-a-pod-in-kubernetes/
-# reference https://github.com/jefferyb/code-server-openshift
+# referencehttps://github.com/jefferyb/code-server-openshift
 ####### 
 
 FROM ubuntu:latest
@@ -28,7 +28,7 @@ FROM ubuntu:latest
 ENV LANG=en_US.UTF-8 \
     LC_ALL=en_US.UTF-8 \
     LANGUAGE=en_US.UTF-8 \
-    TZ=America/Los_Angeles \
+    TZ=Australia/Victoria \
 # adding a sane default is needed since we're not erroring out via exec.
     CODER_PASSWORD="coder" \
     # oc_version="v3.11.0" \
